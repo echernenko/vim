@@ -8,5 +8,5 @@ Quick guide on configuring vim.
     tabulation, 4 spaces by default, showing line numbers, highlighting syntax etc.
 3. Install few plugins, that will make vim environment more like IDE-style:
 - `nerdtree` (file tree explorer) https://github.com/scrooloose/nerdtree
-- syntastic (syntax checker, like ESLint) https://github.com/vim-syntastic/syntastic
-- fzf (fuzzy files finder by name) https://github.com/junegunn/fzf.vim
+- `syntastic` (syntax checker, like ESLint) https://github.com/vim-syntastic/syntastic
+- `fzf` (fuzzy files finder by name) https://github.com/junegunn/fzf.vim
