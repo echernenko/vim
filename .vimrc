@@ -12,3 +12,5 @@ set ignorecase                  " Ignoring case
 highlight LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=DarkGrey guibg=NONE
 " comments color
 hi comment ctermfg=yellow
+" removing highlighting of curly braces, etc.
+let loaded_matchparen = 1
