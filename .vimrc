@@ -10,4 +10,5 @@ set listchars=tab:>·,trail:·    " but only show tabs and trailing whitespace
 set ignorecase                  " Ignoring case
 " Theme setting below
 highlight LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=DarkGrey guibg=NONE
-
+" comments color
+hi comment ctermfg=yellow
