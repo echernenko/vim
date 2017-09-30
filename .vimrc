@@ -1,3 +1,5 @@
+scriptencoding utf-8
+set encoding=utf-8
 syntax on                       " Syntax highlighting
 set number" Show line numbers
 set numberwidth=3               " Line number width
@@ -11,6 +13,6 @@ set ignorecase                  " Ignoring case
 " Theme setting below
 highlight LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=DarkGrey guibg=NONE
 " comments color
-hi comment ctermfg=yellow
+" hi comment ctermfg=yellow
 " removing highlighting of curly braces, etc.
-let loaded_matchparen = 1
+" let loaded_matchparen = 1
