@@ -10,6 +10,7 @@ set smarttab                    " insert tabs at the start of a line according t
 set list                        " Show invisible characters
 set listchars=tab:>·,trail:·    " but only show tabs and trailing whitespace
 set ignorecase                  " Ignoring case
+set noswapfile                  " No swap files
 " Theme setting below
 highlight LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=DarkGrey guibg=NONE
 
