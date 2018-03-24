@@ -5,7 +5,7 @@ set number" Show line numbers
 set numberwidth=3               " Line number width
 set expandtab                   " Make a tab to spaces, num of spaces set in tabstop
 set shiftwidth=2                " Number of spaces to use for autoindenting
-set tabstop=2                   " A tab is four spaces
+set tabstop=2                   " A tab is two spaces
 set smarttab                    " insert tabs at the start of a line according to
 set list                        " Show invisible characters
 set listchars=tab:>·,trail:·    " but only show tabs and trailing whitespace
