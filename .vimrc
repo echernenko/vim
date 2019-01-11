@@ -16,6 +16,7 @@ highlight LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE gui
 
 execute pathogen#infect()
 let NERDTreeShowHidden=1
+let g:NERDTreeNodeDelimiter = "\u00a0"
 autocmd vimenter * NERDTree
 
 " set statusline+=%#warningmsg#
