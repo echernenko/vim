@@ -14,7 +14,6 @@ set noswapfile                  " No swap files
 " Theme setting below
 highlight LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=DarkGrey guibg=NONE
 
-execute pathogen#infect()
 let NERDTreeShowHidden=1
 let g:NERDTreeNodeDelimiter = "\u00a0"
 autocmd vimenter * NERDTree
