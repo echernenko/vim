@@ -13,11 +13,12 @@ set ignorecase                  " Ignoring case
 set noswapfile                  " No swap files
 " Theme setting below
 highlight LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=DarkGrey guibg=NONE
+let g:loaded_matchparen=1
 
-let NERDTreeShowHidden=1
-let g:NERDTreeNodeDelimiter = "\u00a0"
-autocmd vimenter * NERDTree
-
+" simplest setup - disabling fancy plugins
+" let NERDTreeShowHidden=1
+" let g:NERDTreeNodeDelimiter = "\u00a0"
+" autocmd vimenter * NERDTree
 " set statusline+=%#warningmsg#
 " set statusline+=%{SyntasticStatuslineFlag()}
 " set statusline+=%*
